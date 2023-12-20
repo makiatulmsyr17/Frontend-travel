@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- ============swiper================= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+
+
+
+    <title>Holidayuk!</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="assets/img/favicon.png" alt="" width="60px" height="20px"> Holidayuk!
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link ">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link ">About</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#destination" class="nav__link ">Destination</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link ">Contact</a>
+                    </li>
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <img src="assets/img/background.jpeg" alt="home image" class="home__bg">
+            <div class="home__shadow"></div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h3 class="home__subtitle">
+                        Welcome To Holidayuk!
+                    </h3>
+
+                    <h1 class="home__title">
+                        Journey <br>
+                        Joy
+                    </h1>
+
+                    <p class="home__description">
+                        Embark on unforgettable journeys to exotic destinations. Your gateway to extraordinary
+                        experiences begins here.
+                    </p>
+
+                    <a href="#destination" class="button">
+                        Start Your Trip <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--==================== About ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">
+                        About Holidayuk
+                    </h2>
+
+                    <p class="about__description">
+                        Welcome to Holidayuk, a premier travel agency specializing in the sale of flight and bus
+                        tickets. At HolidayUK, we offer a seamless booking experience for global and domestic
+                        destinations, from exotic world wonders to the enchanting archipelago of Nusantara. Our mission
+                        is to provide travelers with not just transportation but also curated recommendations for
+                        incredible destinations worldwide. Whether you dream of exploring iconic landmarks in distant
+                        lands or immersing yourself in the beauty of Nusantara, HolidayUK is your trusted partner. Book
+                        your tickets with us and embark on a journey of discovery and adventure!
+
+                    </p>
+                </div>
+
+                <div class="about__image">
+                    <img src="assets/img/background2.jpeg" alt="about image" class="about__img" width="">
+                    <div class="about__shadow"></div>
+                </div>
+            </div>
+        </section><br>
+
+        <!--==================== Desnitaion ====================-->
+        <section class="destination_section" id="destination">
+            <h2 class="section__title">
+                Destination
+            </h2><br>
+            <h4>3 Most Popular Destinations</h4>
+            <!-- Swiper -->
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1613382237354-eaebbebe6eba?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            height="20px" width="100px" />
+                        <h6>Raja Ampat <br>Papua</h6>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img
+                            src="https://images.unsplash.com/photo-1677809722038-83012c25561f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        <h6>Gili Trawangan<br>NTB</h6>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="https://images.unsplash.com/photo-1549144511-f099e773c147?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                        <h6>Paris<br>Prancis</h6>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1613382237354-eaebbebe6eba?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            height="20px" width="100px" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="https://images.unsplash.com/photo-1677809722038-83012c25561f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img
+                            src="https://images.unsplash.com/photo-1549144511-f099e773c147?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="title_other_des">
+                <h3>Other Destinations</h3>
+            </div>
+            <div class="destination__container container grid">
+                <article class="destination__card">
+                    <div class="destination__image">
+                        <img src=" " alt="destination image" class="destination__img1" width="500px" height="500px">
+                        <div class="destination__shadow"></div>
+                    </div>
+                    <h2 class="destination__title1">
+
+                    </h2>
+                    <div class="destination__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="kota1"> </span>
+                    </div>
+                </article>
+
+                <article class="destination__card">
+                    <div class="destination__image">
+                        <img src="" alt="destination image" class="destination__img2" width="500px" height="500px">
+                        <div class="destination__shadow"></div>
+                    </div>
+                    <h2 class="destination__title2">
+
+                    </h2>
+                    <div class="destination__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="kota2"></span>
+                    </div>
+                </article>
+
+                <article class="destination__card">
+                    <div class="destination__image">
+                        <img src="" alt="destination image" class="destination__img3" width="500px" height="500px">
+                        <div class="destination__shadow"></div>
+                    </div>
+                    <h2 class="destination__title3">
+
+                    </h2>
+                    <div class="destination__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="kota3"></span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="destination__container container grid">
+                <article class="destination__card">
+                    <div class="destination__image">
+                        <img src="" alt="destination image" class="destination__img4" width="500px" height="500px">
+                        <div class="destination__shadow"></div>
+                    </div>
+                    <h2 class="destination__title4">
+
+                    </h2>
+                    <div class="destination__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="kota4"></span>
+                    </div>
+                    <p></p>
+                </article>
+
+                <article class="destination__card">
+                    <div class="destination__image">
+                        <img src="" alt="destination image" class="destination__img5" width="500px" height="500px">
+                        <div class="destination__shadow"></div>
+                    </div>
+                    <h2 class="destination__title5">
+
+                    </h2>
+                    <div class="destination__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="kota5"></span>
+                    </div>
+                </article>
+
+                <article class="destination__card">
+                    <div class="destination__image">
+                        <img src="" alt="destination image" class="destination__img6" width="500px" height="500px">
+                        <div class="destination__shadow"></div>
+                    </div>
+                    <h2 class="destination__title6">
+
+                    </h2>
+                    <div class="destination__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span class="kota6"></span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== Contact Us ====================-->
+        <section id="contact" class="contact"><br><br><br><br>
+            <h2>Contact Us</h2>
+            <div class="contact-p">
+                <p>Get in touch with us for the enquiries you have</p>
+            </div>
+            <div class="row">
+                <div class="map">
+                    <iframe title="maps"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.0395081096012!2d106.82181457069639!3d-6.227160147171451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4734a8de3%3A0xb2ad7eacc88d7f3e!2sRevoU!5e1!3m2!1sid!2sid!4v1699338852839!5m2!1sid!2sid"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        width="250px" height="250px"></iframe>
+                </div>
+                <div class="content">
+                    <h3>Address</h3>
+                    <p>
+                        Jl. DR. Ide Anak Agung Gde Agung <br>
+                        Jakarta, Daerah Khusus Ibukota Jakarta <br>
+                        12950
+                    </p>
+                    <h3>Phone</h3>
+                    <p>022 5347 8348</p>
+                    <h3>Email</h3>
+                    <p>info@holidayuk.com</p>
+                </div>
+
+                <form action="form" class="input-form" id="input-form" autocomplete="off">
+                    <div class="input-group" id="input-group">
+                        <input type="text" id="input-name" placeholder="Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="input-email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group-mess">
+                        <textarea rows="5" id="input-message" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" id="btn">Send</button>
+                </form>
+            </div>
+        </section>
+
+
+        <!--==================== Footer ====================-->
+        <footer class="footer">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#destination">Destination</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="credit">
+                <p> Copyright &copy; 2023 Holidayuk. All rights reserved </p>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!-- ========sweetalert2================== -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- =================swiper==================================== -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="./js/script.js"></script>
+</body>
+
+</html>
